@@ -1,0 +1,22 @@
+{
+  "title": "Attach Handlers to Container Lifecycle Events",
+  "description": "how to attach handlers to Container lifecycle events",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "List all pods",
+        "text":  "step1.md",
+        "verify": "verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
