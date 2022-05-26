@@ -2,12 +2,12 @@
 
 ### Run create a pod nginx-lifecycle with lifecycle handler postStart and preStop
 ```
-cat <<EOF | kubectl apply -f -
+cat <<"EOF" | kubectl apply -f -
 apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-lifecycle
-  spec:
+spec:
     containers:
     - name: nginx
       image: nginx
