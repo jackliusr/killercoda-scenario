@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUM_EP=$(kubectl get ep -o json | jq '.items | length'
+NUM_EP=$(kubectl get ep -o json | jq '.items | length')
 
 if [ "$NUM_EP" -eq "2" ]; then
     exit 0

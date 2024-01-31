@@ -1,10 +1,12 @@
 
 
 ### Run create a pod demo and a demo service
-. A pod demo has two containers: an app (image: stefanprodan/podinfo:6.2.2) and an NGINX proxy.
-. The app exposes an API on port 8080 and a web UI on port 8081.
-. The proxy listens for connections on port 3000 and forwards them to the app on port 8080.
-. The service routes traffic to ports 9000 and 8080 on the pod.
+
+1. A pod demo has two containers: an app (image: stefanprodan/podinfo:6.2.2) and an NGINX proxy.
+
+1. The app exposes an API on port 8080 and a web UI on port 8081.
+1. The proxy listens for connections on port 3000 and forwards them to the app on port 8080.
+1. The service routes traffic to ports 9000 and 8080 on the pod.
 
 <details><summary>Solution</summary>
 <br>
