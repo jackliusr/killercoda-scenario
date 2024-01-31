@@ -1,7 +1,9 @@
 #!/usr/bin/bash
 if [[ $(kubectl logs nginx-lifecycle | grep -E -q "from (postStart|preStop) nginx-lifecycle") ]]
 then 
-  exit 0; 
+  #not found
+  exit 1; 
 else
-  exit 1;
+  #found
+  exit 0;
 fi
