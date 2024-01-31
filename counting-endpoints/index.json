@@ -1,0 +1,27 @@
+{
+    "title": "Counting endpoints",
+    "description": "Count how many endpoints in this setup",
+    "details": {
+        "intro": {
+            "text": "intro.md"
+        },
+        "steps": [
+            {
+                "title": "Create a pod demo and a demo service",
+                "text": "step1.md",
+                "verify": "verify1.sh"
+            },
+            {
+                "title": "How many endpoints now",
+                "text": "step2.md",
+                "verify": "verify2.sh"
+            }
+        ],
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "backend": {
+        "imageid": "kubernetes-kubeadm-1node"
+    }
+}
